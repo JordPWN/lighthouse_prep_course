@@ -1,6 +1,5 @@
 class Calculator
   def add(a, b)
-    puts "add"
     a + b
   end
   def subtract(a, b)
@@ -28,4 +27,6 @@ case user_input_array[1]
     puts myCalc.multiply(int1, int2)
   when "/"
     puts myCalc.divide(int1, int2)
+  else
+    puts "That is an invald equation! Please follow the directions as above"
 end
