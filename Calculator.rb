@@ -13,11 +13,12 @@ class Calculator
   end
 end
 myCalc = Calculator.new
-puts "Enter your equation using + - * or / seperating your operator and numbers with a space."
+puts "Enter your equation using + - * or /."
 user_input = gets.chomp
-user_input_array = user_input.split(' ')
+user_input_array = user_input.split(/(\+|\-|\*|\/)/)
 int1 = user_input_array[0].to_i
 int2 = user_input_array[2].to_i
+puts user_input_array
 case user_input_array[1]
   when "+"
     puts myCalc.add(int1, int2)
@@ -30,3 +31,6 @@ case user_input_array[1]
   else
     puts "That is an invald equation! Please follow the directions as above"
 end
+
+# .gsub!(" ", "").split('+','-','*','/')
+# (\d+) grabs all numbers (^[+|-|*|/])
