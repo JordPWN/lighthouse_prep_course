@@ -20,16 +20,16 @@ int1 = user_input_array[0].to_i
 int2 = user_input_array[2].to_i
 puts user_input_array
 case user_input_array[1]
-  when "+"
-    puts myCalc.add(int1, int2)
-  when "-"
-    puts myCalc.subtract(int1, int2)
-  when "*"
-    puts myCalc.multiply(int1, int2)
-  when "/"
-    puts myCalc.divide(int1, int2)
-  else
-    puts "That is an invald equation! Please follow the directions as above"
+when "+"
+  puts myCalc.add(int1, int2)
+when "-"
+  puts myCalc.subtract(int1, int2)
+when "*"
+  puts myCalc.multiply(int1, int2)
+when "/"
+  puts myCalc.divide(int1, int2)
+else
+  puts "That is an invald equation! Please follow the directions as above"
 end
 
 # .gsub!(" ", "").split('+','-','*','/')

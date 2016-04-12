@@ -11,7 +11,7 @@ html, body {
 	text-decoration: line-through;
 	color: grey;
 }
-#show-hide-button{
+#show-hide-button {
 	height: 40px;
 	width: 40px;
 	border-radius: 5px;
@@ -48,12 +48,6 @@ html, body {
 li {
 	line-height: 32px;
 }
-/*#title:hover span {
-	display: none;
-}
-#title:hover:before {
-	content: 'Click to toggle images';
-}*/
 #page-container {
 	height: 100%;
 	margin: 1%;
