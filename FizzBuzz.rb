@@ -11,5 +11,6 @@ def FizzBuzz(upperLimit)
 		end
 	end
 end
-	
-FizzBuzz(100)
+
+user_input = gets.chomp.to_i
+FizzBuzz(user_input)

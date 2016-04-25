@@ -36,3 +36,4 @@ end
 # (\d+) grabs all numbers (^[+|-|*|/])
 # consider using (\W) to grab all non-alphanumerics as the breakpoint.
 # Idea: For (x=0,x < user_input_array+ 2, x=x+2) if (x==0)return user_input_array[x] + user_input_array[x+2] else return calculator + user_input_array[x+2] SO = 1+1+2 1st: 1+1=2 2nd:2+2=4 Doesn't account for Order of operations, requires if statement to qualify first line
+# Consider using optional arguments (*argument)
