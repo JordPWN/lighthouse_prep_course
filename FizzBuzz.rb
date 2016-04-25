@@ -1,6 +1,6 @@
 def FizzBuzz(upperLimit)
 	for x in 1..upperLimit
-		if x == 15
+		if x % 15 == 0
 			puts "FizzBuzz!"
 		elsif x % 3 == 0
 			puts "Fizz!"
@@ -12,4 +12,4 @@ def FizzBuzz(upperLimit)
 	end
 end
 	
-	FizzBuzz(100)
+FizzBuzz(100)
